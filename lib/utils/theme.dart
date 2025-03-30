@@ -8,6 +8,7 @@ final mainTheme = ThemeData(
   textTheme: const TextTheme(
     bodyMedium: TextStyle(color: AppColors.textColor),
   ),
+  fontFamily: 'Ador',
   elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
     foregroundColor: Colors.white,
