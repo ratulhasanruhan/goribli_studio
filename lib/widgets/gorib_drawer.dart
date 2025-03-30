@@ -25,6 +25,12 @@ class GoribDrawer extends StatelessWidget {
             },
           ),
           ListTile(
+            title: Text("ডাউনলোড"),
+            onTap: () {
+              Navigator.of(context).pushNamed("/download");
+            },
+          ),
+          ListTile(
             title: Text("বিস্তারিত"),
             onTap: () {
               Navigator.of(context).pushNamed("/about");

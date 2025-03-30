@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "goribli",
+          "appId": "1:166553281324:android:4692697295316c2a928289",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "goribli",
+          "configurations": {
+            "android": "1:166553281324:android:4692697295316c2a928289",
+            "ios": "1:166553281324:ios:6aff786a2ddecb85928289",
+            "macos": "1:166553281324:ios:6aff786a2ddecb85928289",
+            "web": "1:166553281324:web:497cff4774c38da5928289",
+            "windows": "1:166553281324:web:03ef2a6715c5b0fb928289"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

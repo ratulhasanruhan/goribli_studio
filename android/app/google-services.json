@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "166553281324",
+    "project_id": "goribli",
+    "storage_bucket": "goribli.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166553281324:android:4692697295316c2a928289",
+        "android_client_info": {
+          "package_name": "com.appibrium.goribli_studio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB985D-TKYNSGSUJ1RukNxASjzPdI-eiMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
