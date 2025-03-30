@@ -46,7 +46,7 @@ class _DownloadState extends State<Download> {
                   height: 20,
                 ),
                 Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     ElevatedButton.icon(
                       icon: Icon(Icons.window),
@@ -63,6 +63,9 @@ class _DownloadState extends State<Download> {
                         await launchUrl(Uri.parse('${raw_url}windows.zip'));
                       },
                     ),
+                    SizedBox(
+                      width: 10,
+                    ),
                     ElevatedButton.icon(
                       icon: Icon(Icons.android),
                       label: Text(
@@ -77,6 +80,9 @@ class _DownloadState extends State<Download> {
                       onPressed: ()async{
                         await launchUrl(Uri.parse('${raw_url}android.apk'));
                       },
+                    ),
+                    SizedBox(
+                      width: 10,
                     ),
                     ElevatedButton.icon(
                       icon: Icon(Icons.public),
