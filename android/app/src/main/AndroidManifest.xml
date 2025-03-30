@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="goribli_studio"
+        android:label="গরিবলী™ স্টুডিও"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

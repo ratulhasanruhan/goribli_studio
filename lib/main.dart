@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:goribli_studio/constants.dart';
 import 'package:goribli_studio/utils/theme.dart';
+import 'package:goribli_studio/view/about.dart';
 import 'package:goribli_studio/view/home.dart';
 
 void main() {
@@ -16,7 +17,11 @@ class MyApp extends StatelessWidget {
       title: app_name,
       theme: mainTheme,
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => const Home(),
+        '/about': (context) => const About(),
+      },
     );
   }
 }

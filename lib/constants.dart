@@ -1,1 +1,1 @@
-const String app_name = "Goribli Studio";
+const String app_name = "গরিবলী™ স্টুডিও";
