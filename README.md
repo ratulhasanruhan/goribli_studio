@@ -1,16 +1,9 @@
-# goribli_studio
+# গরিবলী™ স্টুডিও
 
-A new Flutter project.
+![logo](https://github.com/user-attachments/assets/dc4dced3-4ac8-4d67-8095-78faab29d2d8)
 
-## Getting Started
+## Try out -
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🪟Windows: https://github.com/ratulhasanruhan/goribli_studio/releases/download/release/goribli.exe
+### 📱Android: https://github.com/ratulhasanruhan/goribli_studio/releases/download/release/goribli.apk
+### 🌐Web: https://goribli.web.app/
