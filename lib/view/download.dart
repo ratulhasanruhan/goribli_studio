@@ -60,7 +60,7 @@ class _DownloadState extends State<Download> {
                         backgroundColor: Color(0xFF00A3EE)
                       ),
                       onPressed: () async{
-                        await launchUrl(Uri.parse('${raw_url}windows.zip'));
+                        await launchUrl(Uri.parse('${raw_url}goribli.exe'));
                       },
                     ),
                     SizedBox(
@@ -78,7 +78,7 @@ class _DownloadState extends State<Download> {
                         backgroundColor: Color(0xFF3DDC84)
                       ),
                       onPressed: ()async{
-                        await launchUrl(Uri.parse('${raw_url}android.apk'));
+                        await launchUrl(Uri.parse('${raw_url}goribli.apk'));
                       },
                     ),
                     SizedBox(
